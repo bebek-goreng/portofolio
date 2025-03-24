@@ -35,9 +35,10 @@ const CV = () => {
               Download CV
             </a>
             <a
-              href="https://drive.google.com/file/d/1U1iE-xKUA9f2EmD7UM4P62A29ueapVh2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1dnI6T7_FQAux83ecNtr2vNg-9BdUWcNm/view?usp=sharing"
               className="bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition"
               target='_blank'
+              rel="noopener noreferrer"
             >
               View CV
             </a>

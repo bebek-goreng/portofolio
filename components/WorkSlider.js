@@ -44,7 +44,7 @@ const WorkSlider = () => {
         <SwiperSlide key={index}>
           <div className="flex items-center justify-center h-full relative">
             <div className="bg-white/20 backdrop-blur-lg rounded-lg p-4 w-[90%] sm:w-[80%] lg:w-[70%] shadow-lg border border-white/10 transition-shadow duration-300 hover:shadow-xl">
-              <Link href={item.href} className="block cursor-pointer">
+              <Link href={item.href} target='_blank' rel="noopener noreferrer" className="block cursor-pointer">
                 <Image
                   src={item.path}
                   width={500}
