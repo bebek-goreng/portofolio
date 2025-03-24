@@ -15,6 +15,11 @@ const data = {
       href: 'https://github.com/Init-Projectx'
     },
     {
+      title: "Spotify clone +  real time chat feature",
+      path: "/spotify-clone.png",
+      href: "https://github.com/bebek-goreng/mern-spotify-clone.git"
+    },
+    {
       title: 'Todo List App',
       path: '/todos.png',
       href: 'https://github.com/bebek-goreng/todos-minpro'
@@ -37,7 +42,7 @@ const WorkSlider = () => {
     >
       {data.data.map((item, index) => (
         <SwiperSlide key={index}>
-          <div className="flex items-center justify-center h-full">
+          <div className="flex items-center justify-center h-full relative">
             <div className="bg-white/20 backdrop-blur-lg rounded-lg p-4 w-[90%] sm:w-[80%] lg:w-[70%] shadow-lg border border-white/10 transition-shadow duration-300 hover:shadow-xl">
               <Link href={item.href} className="block cursor-pointer">
                 <Image

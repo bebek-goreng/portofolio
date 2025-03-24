@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Avatar from '../../components/Avatar';
 import Circle from '../../components/Circles';
 import { motion } from 'framer-motion';
-import { fadeIn } from "../../variants"; // Ensure this is defined correctly
+import { fadeIn } from "../../variants"; 
 
 export const aboutData = [
   {

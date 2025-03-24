@@ -12,7 +12,7 @@ const Work = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex flex-col xl:flex-row gap-x-8">
           <motion.div
-            className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-8 xl:mb-0 mt-28"
+            className="text-center flex xl:w-[30vw] flex-col lg:text-left xl:mb-0 mt-5"
             variants={fadeIn('up', 0.2)}
             initial="hidden"
             animate="show"
@@ -22,7 +22,7 @@ const Work = () => {
               <span>My</span> Portfolio
             </h2>
             <p className="mb-6 max-w-[400px] mx-auto lg:mx-0">
-              Here’s a collection of projects I've poured my skills and creativity into. From concept to execution, I’m thrilled to showcase what I’ve built and learned along the way. Dive in and explore my work!
+              Here’s a collection of projects I've poured my skills and creativity into.
             </p>
           </motion.div>
           <motion.div
