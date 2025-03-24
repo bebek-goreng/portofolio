@@ -8,7 +8,7 @@ const CV = () => {
     <>
       <Circles />
       <motion.div
-        className="flex flex-col items-center justify-center h-screen container mx-auto p-4 sm:p-6"
+        className="flex flex-col items-center justify-center h-screen container mx-auto p-4 pb-12 sm:p-6"
         variants={fadeIn('up', 0.2)}
         initial="hidden"
         animate="show"

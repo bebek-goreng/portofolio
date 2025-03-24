@@ -15,7 +15,7 @@ const Tools = () => {
         animate='show'
         exit='hidden'
       >
-        <div>
+        <div className="pb-20">
           <h1 className="text-4xl mb-16 text-center">
             <span className="text-accent">Tools </span>& Tech stack I use
           </h1>
