@@ -14,7 +14,7 @@ const CV = () => {
         animate="show"
         exit="hidden"
       >
-        <h1 className="text-3xl mt-8 sm:text-4xl font-bold text-center mb-2 xl:mt-10 lg:mt-10 sm:mt-4">Sofyan Mahendra</h1>
+        <h1 className="text-3xl mt-4 sm:text-4xl font-bold text-center mb-2 xl:mt-10 lg:mt-10 sm:mt-4">Sofyan Mahendra</h1>
         <p className="text-center text-md sm:text-lg mb-4">Software Developer Enthusiast</p>
 
         <div className="flex justify-center h-[45%] w-[60%] mb-4 md:h-[50%] md:w-[17%] sm:h-[90%] sm:w-[30%]">
