@@ -16,7 +16,7 @@ const Home = () => {
             exit='hidden'
           >
             <span className='text-accent'>Hi there,</span>
-            <span className=''> I'm Mahen</span>
+            <span className=''> Iam Mahen</span>
           </motion.h1>
           <motion.p
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 xl:mb-16 pl-5'
@@ -36,7 +36,6 @@ const Home = () => {
           <ParticlesContainer />
         </div>
         <div className='w-full h-full max-w-[600px] max-h-[500px] absolute -bottom-32 lg:bottom-0 lg:right-[4%]'>
-          {/* <Avatar /> */}
         </div>
       </div>
     </div>

@@ -48,7 +48,7 @@ const Contact = () => {
             animate="show"
             exit="hidden"
           >
-            Let's <span className="text-accent">connect</span>
+            Lets <span className="text-accent">connect</span>
           </motion.h2>
 
           <form onSubmit={handleSubmit} className="flex-1 h-[50%] flex flex-col gap-6 w-full mx-auto">

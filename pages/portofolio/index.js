@@ -22,7 +22,7 @@ const Work = () => {
               <span>My</span> Portfolio
             </h2>
             <p className="mb-6 max-w-[400px] mx-auto lg:mx-0">
-              Here’s a collection of projects I've poured my skills and creativity into.
+              Heres a collection of projects Ive poured my skills and creativity into.
             </p>
           </motion.div>
           <motion.div
